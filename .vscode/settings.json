@@ -1,0 +1,20 @@
+{
+    "folder-color.pathColors": [
+        {
+            "folderPath": "Mini-Project-2---API-Integration\\public\\",
+            "color": "foldercolorizer.color_33cc00"
+        },
+        {
+            "folderPath": "Mini-Project-2---API-Integration\\app.js\\",
+            "color": "foldercolorizer.color_cc0099"
+        },
+        {
+            "folderPath": "Mini-Project-2---API-Integration\\views\\",
+            "color": "foldercolorizer.color_00cccc"
+        },
+        {
+            "folderPath": "Mini-Project-2---API-Integration\\routes\\",
+            "color": "foldercolorizer.color_ff6600"
+        }
+    ]
+}
