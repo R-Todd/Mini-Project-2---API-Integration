@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mini Project 2 - Ryan Todd</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Post</title>
+    <link rel="stylesheet" href="/css/styles.css">
+
+</head>
+<body>
+    <main class="container">
+        <h1> Search Result</h1>
+
+        <% if (found) { %>
+            <p> Success - Data found for <strong><%= searchItem %></strong>.</p>
+
+            <h2><%= cocktail.strDrink %></h2>
+
+            <img src="<%= cocktail.strDrinkThumb %>" alt="<%= cocktail.strDrink %>" style="max-width: 100%;">
+
+            <p><%= cocktail.strInstructions %></p>
+        <% } else { %>
+            <p> No data found for <strong><%= searchItem %></strong>. Please try again.</p>
+
+        <% } %>
+        <a href="/"> style="display: block; margin-top: 20px;> Search again</a>
+
+    </main>
+            
+    
+</body>
+</html>
