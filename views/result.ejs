@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Post</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/style.css">
 
 </head>
 <body>
@@ -13,18 +13,21 @@
         <h1> Search Result</h1>
 
         <% if (found) { %>
-            <p> Success - Data found for <strong><%= searchItem %></strong>.</p>
+            <div class="result-card">
+            <p> Success - Data found for <strong><%= searchTerm %></strong>.</p>
 
             <h2><%= cocktail.strDrink %></h2>
 
             <img src="<%= cocktail.strDrinkThumb %>" alt="<%= cocktail.strDrink %>" style="max-width: 100%;">
 
             <p><%= cocktail.strInstructions %></p>
+            </div>
         <% } else { %>
-            <p> No data found for <strong><%= searchItem %></strong>. Please try again.</p>
+            <p> No data found for <strong><%= searchTerm %></strong>. Please try again.</p>
 
         <% } %>
-        <a href="/"> style="display: block; margin-top: 20px;> Search again</a>
+        <a href="/" style="display: block; margin-top: 20px;"> Search again</a>
+
 
     </main>
             
