@@ -87,18 +87,30 @@ sub {
     line-height: 1.6;
 }
 
-/* --- Responsive Design for Mobile --- */
+.footer {
+    width: 100%; 
+    background-color: #97c1eb; 
+    border-top: 1px solid #dee2e6; 
+    text-align: center;
+    padding: 1rem 0; /* Add some vertical padding */
+    color: #6c757d; /* A muted text color */
+    font-size: 0.9rem;
+    /* Position it at the bottom */
+    margin-top: auto;
+}
+
+
+/* ---  Design for Mobile --- */
 @media (max-width: 600px) {
     .search-form {
-        /* On small screens, stack the button under the input field */
         flex-direction: column;
     }
 
     body {
-        padding: 1rem; /* Reduce padding */
+        padding: 1rem;
     }
 
     .container {
-        padding: 1.5rem; /* Reduce padding on main container */
+        padding: 1.5rem;
     }
 }
