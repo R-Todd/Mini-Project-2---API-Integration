@@ -11,9 +11,11 @@
 <body>
     <main class="container">
         <h1> Cocktail Recipe Finder</h1>
+        <sub> (e.g Margarita, Manhattan, Old Fashioned)</sub>
         <p> Search Cocktail By Name:</p>
+    
         <form action="/get-data" method="POST">
-            <input type="text" name="userInput" placeholder="e.g Margarita, Manhattan" required />
+            <input type="text" name="userInput" placeholder="cocktail name" required />
             <button type="submit">Get Data</button>
         </form>
     </main>
